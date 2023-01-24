@@ -42,6 +42,17 @@ $(document).ready(function () {
             }
         })
     }
+    // Pull saved data from local storage
+    $("#slot8 .description").val(localStorage.getItem("slot8"));
+    $("#slot9 .description").val(localStorage.getItem("slot9"));
+    $("#slot10 .description").val(localStorage.getItem("slot10"));
+    $("#slot11 .description").val(localStorage.getItem("slot11"));
+    $("#slot12 .description").val(localStorage.getItem("slot12"));
+    $("#slot13 .description").val(localStorage.getItem("slot13"));
+    $("#slot14 .description").val(localStorage.getItem("slot14"));
+    $("#slot15 .description").val(localStorage.getItem("slot15"));
+    $("#slot16 .description").val(localStorage.getItem("slot16"));
+    $("#slot17 .description").val(localStorage.getItem("slot17"));
 
     timeTracker();
 })
